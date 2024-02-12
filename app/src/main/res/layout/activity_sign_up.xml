@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LandingPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="@drawable/home_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/online_library"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-40dp"
+        android:orientation="vertical"
+        android:background="@drawable/home_bottom_design">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/back_to_landinpage"
+            android:src="@drawable/arrow_left"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/book" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:textSize="37sp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_in_edittext"
+                android:hint="@string/full_name"
+                android:inputType="text"
+                android:layout_marginBottom="25dp"
+                android:padding="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_in_edittext"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="25dp"
+                android:padding="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_in_edittext"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:layout_marginBottom="25dp"
+                android:padding="15dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sign_in_edittext"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:layout_marginBottom="25dp"
+                android:padding="15dp"
+                android:autofillHints="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:text="@string/sign_up"
+                android:background="@drawable/sign_up_btn_design"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

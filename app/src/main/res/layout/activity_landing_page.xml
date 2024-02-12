@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LandingPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="@drawable/home_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/online_library"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-40dp"
+        android:orientation="vertical"
+        android:background="@drawable/home_bottom_design">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/book"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/book" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_the_online_library_a_service_dedicated_to_knowledgeable_people_of_the_world_this_is_one_of_the_largest_and_most_authoritative_collections_of_online_journals_books_and_research_resources_covering_life_health_social_and_physical_sciences"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+           />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:text="@string/sign_up"
+                android:id="@+id/sign_up_btn"
+                android:background="@drawable/sign_up_btn_design"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/sign_in_btn_design"
+                android:textColor="@color/black"
+                android:padding="13dp"
+                android:id="@+id/sign_in_btn"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Online_Library</string>
+    <string name="online_library">ONLINE LIBRARY</string>
+    <string name="welcome_to_the_online_library_a_service_dedicated_to_knowledgeable_people_of_the_world_this_is_one_of_the_largest_and_most_authoritative_collections_of_online_journals_books_and_research_resources_covering_life_health_social_and_physical_sciences">Welcome to the Online Library. A service dedicated to knowledgeable people of the world. This is one of the largest and most authoritative collections of online journals, books, and research resources, covering life, health, social and physical sciences.</string>
+    <string name="book">book</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="back">Back</string>
+</resources>
